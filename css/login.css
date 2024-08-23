@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Parisienne&display=swap");
+* {
+    box-sizing: border-box;
+    font-family: "Parisienne", cursive;
+    padding: 0;
+    margin: 0;
+    user-select: none;
+}
+/* Estilo general del body */
+body {
+    background: linear-gradient(237.2deg, rgba(76, 223, 197, 0.74) 14.31%, #C73BCA 83.58%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #333;
+    margin: 0;
+}
+
+/* Estilo del encabezado */
+header {
+    width: 100%;
+    background-color: #5b00b1;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+    z-index: 10;
+}
+
+h1 {
+    font-size: 35px;
+    font-family: 'Parisienne', cursive;
+    color: #ffffff;
+    margin: 0;
+}
+
+h2 {
+    font-size: 35px;
+    font-family:'Times New Roman', Times, serif; 
+    color: #ffffff;
+    margin: 0;
+}
+
+/* Contenedor principal del contenido */
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    max-width: 1200px;
+    margin-top: 100px; /* Ajuste para que el contenido no quede oculto debajo del encabezado */
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+/* Estilo para el formulario de inicio de sesión */
+form {
+    background-color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    margin-right: 20px;
+    box-sizing: border-box;
+}
+
+/* Estilo para el mensaje de error */
+#error {
+    font-size: 14px;
+    color: #5f02b6;
+    margin-bottom: 20px;
+    display: none;
+}
+
+/* Estilo para el formulario */
+form h2 {
+    margin-bottom: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    color: #333;
+}
+
+form label {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 6px;
+    display: block;
+    color: #555;
+}
+
+form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+form input:focus {
+    border-color: #ce36f4;
+    box-shadow: 0 0 8px rgba(206, 54, 244, 0.3);
+    outline: none;
+}
+
+form button {
+    width: 100%;
+    padding: 14px;
+    background-color: #ce36f4;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+form button:hover {
+    background-color: #b128d3;
+    transform: scale(1.05);
+}
+
+form button:active {
+    background-color: #a01bbd;
+}
+
+/* Estilo para la imagen */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
